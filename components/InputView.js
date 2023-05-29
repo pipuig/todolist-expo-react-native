@@ -4,10 +4,6 @@ import { StyleSheet, View, Text,TextInput,Button, Pressable,Image } from "react-
 export default function InputView({setIsModalVisible,onChangeText,text,onPressButton }) {
   return (
       <View style={styles.inputContainer}>
-          <Image
-              // style={{width:300}}
-              source={require('../assets/logocmpc-dark.png')}
-          />
           <TextInput
               style={styles.textInput}
               onChangeText={onChangeText}
